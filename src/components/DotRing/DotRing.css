@@ -1,0 +1,20 @@
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  .ring {
+    position: fixed;
+    mix-blend-mode: soft-light;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 130px;
+    border: 5px solid rgba(31, 30, 30, 0.808);
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    will-change: width, height, transform, border;
+    z-index: 999;
+    pointer-events: none;
+  }
+}

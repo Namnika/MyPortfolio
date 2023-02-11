@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* error page styles */
+.error-page {
+  overflow: hidden;
+  display: block;
+  width: 90vw;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(
+    ellipse at left top,
+    #131313 2%,
+    #000000 46%,
+    #000000 100%
+  );
+  opacity: 0.97;
+}
+
+.error {
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+
+#err {
+  font: 20vw "Montserrat", sans-serif;
+  letter-spacing: -7px;
+}
+
+.err-desc > p {
+  letter-spacing: 0.31px;
+  margin: 5px 0;
+  font: 16px 微軟正黑體;
+  line-height: 1.6em;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  .err-desc > p {
+    font-size: 17px;
+    line-height: 1.9em;
+  }
+  #err {
+    font-size: 13vw;
+    letter-spacing: -7px;
+  }
+}
+.home-link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font: 18px "Montserrat", sans-serif;
+}
+
+.home-link:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}

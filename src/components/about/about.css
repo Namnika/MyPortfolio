@@ -1,0 +1,307 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 18px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.about-page {
+  background: url("https://png.pngtree.com/background/20210710/original/pngtree-white-background-picture-image_984879.jpg")
+    no-repeat;
+  background-position: 0% 100%;
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  height: 195vh;
+  max-height: 195vh;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0 calc(100px - 80px);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.about-page::before {
+  content: "ABOUT";
+  -webkit-text-fill-color: rgba(178, 176, 176, 1);
+  font: 10vh "Montserrat", sans-serif;
+  position: absolute;
+  margin-left: -150px;
+  opacity: 0.3;
+  z-index: 1;
+  left: 40%;
+  letter-spacing: 8px;
+  bottom: -2.1%;
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  .about-page {
+    background-position: 50% 100%;
+    padding: 0px;
+    height: 137vh;
+    max-height: 137vh;
+    max-width: 100%;
+    width: 100%;
+    margin: 0% auto 0%;
+  }
+  .about-page::before {
+    opacity: 0.3;
+    z-index: 0;
+    font: 20vh "Montserrat", sans-serif;
+    letter-spacing: 1rem;
+    left: 27%;
+    bottom: 45%;
+  }
+}
+
+.about-container {
+  background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
+  position: relative;
+  transform: rotate(270deg);
+  right: -32%;
+  height: 20rem;
+  width: 30%;
+  margin: -27% 0 -17%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.middle-circle {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.middle-circle > img {
+  top: 120%;
+  width: 30%;
+  height: 30%;
+  position: relative;
+  right: 19%;
+}
+
+.middle-circle > span {
+  font: 1rem 微軟正黑體;
+  font-weight: 300;
+  top: 120%;
+  left: -37%;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+#small-div {
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 69.5%;
+  right: 7%;
+  width: 10%;
+  opacity: 0.826;
+  height: 28%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  #small-div {
+    width: 10%;
+    height: 40%;
+    bottom: -10%;
+    transform: rotate(180deg);
+    right: -90%;
+  }
+  .about-container {
+    background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
+    transform: rotate(0deg);
+    right: -67%;
+    height: 75vh;
+    width: 27%;
+    margin: 10% 0 0;
+  }
+  .middle-circle > img {
+    top: -1%;
+    width: 60%;
+    height: 60%;
+    position: relative;
+    right: 25%;
+  }
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+}
+
+.about-heading {
+  position: relative;
+  transform: rotate(90deg);
+  left: -150%;
+  width: 360px;
+  height: 50px;
+}
+
+.about-heading > #about {
+  position: relative;
+  top: -27%;
+  left: 43%;
+  font-weight: 700;
+  color: #393e46;
+  font: 2.5em "Montserrat", sans-serif;
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  .about-heading {
+    transform: rotate(0deg);
+    height: 100px;
+    left: -22%;
+  }
+  .about-heading > #about {
+    top: 220%;
+    left: 75%;
+    text-align: end;
+    font-size: 3.2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+}
+
+/* about styles */
+.about-desc {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  width: 380px;
+  height: 700px;
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  .about-desc {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 850px;
+    height: 700px;
+  }
+}
+
+blockquote {
+  display: block;
+  width: 360px;
+  line-height: 1.5em;
+  font-weight: 700;
+  padding: 15px 50px;
+  position: relative;
+  z-index: 5;
+  color: rgba(0, 0, 0, 1);
+  text-align: start;
+  border-left: 8px solid rgba(0, 0, 0, 1);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+p {
+  line-height: 1.6em;
+  letter-spacing: 0.31px;
+  color: #393e46;
+  font-family: 微軟正黑體;
+  font-size: 16px;
+}
+.about-desc > #description {
+  letter-spacing: 0.31px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 2.5rem 28px 2.5rem;
+}
+
+#mycv {
+  color: #393e46;
+  font-weight: 200;
+  letter-spacing: 4px;
+  font: 17px "Montserrat", sans-serif;
+}
+
+#mycv .cv {
+  color: #393e46;
+  text-decoration: none;
+}
+#mycv .cv:hover {
+  color: var(--bs-secondary);
+  text-decoration: none;
+}
+
+#skills,
+#certificates {
+  color: #393e46;
+  font-weight: 500;
+  font: 25px "Montserrat", sans-serif;
+}
+
+#certificate_link > a {
+  margin: 2.5rem 28px 2.5rem;
+  font: 13px "Montserrat", sans-serif;
+  letter-spacing: calc(100px - 97px);
+  line-height: 2.5em;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #393e46;
+  text-decoration: none;
+}
+
+#certificate_link > a:hover {
+  color: var(--bs-secondary);
+  text-decoration: none;
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  p {
+    padding: 0;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.9em;
+  }
+  .about-desc > #description {
+    cursor: text;
+    font-weight: 500;
+    letter-spacing: 0.31px;
+    font-size: 17px;
+    margin: 2rem 28px 2rem;
+  }
+  blockquote {
+    border-left: 15px solid rgba(0, 0, 0, 1);
+    width: 800px;
+    font-size: 30px;
+  }
+  #mycv {
+    cursor: pointer;
+    letter-spacing: 5px;
+    position: relative;
+    text-decoration: none;
+    top: -35%;
+    left: 13%;
+    font: 20px "Montserrat", sans-serif;
+  }
+  #skills,
+  #certificates {
+    font: 30px "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  #certificate_link > a {
+    position: absolute;
+    margin: 2rem 28px 2rem;
+    letter-spacing: 5px;
+  }
+}
