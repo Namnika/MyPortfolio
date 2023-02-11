@@ -5,7 +5,7 @@ import Project from "../project/project";
 import About from "../about/about";
 import Contact from "../contact/contact";
 import { Link } from "react-scroll";
-import { motion, useScroll, useSpring } from "framer-motion/dist/framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 import DotRing from "../DotRing/DotRing";
 import { MouseContext } from "../context/mouse-context";
