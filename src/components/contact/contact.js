@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import { format } from "date-fns";
 import axios from "axios";
 import qs from "qs";
-import { useState} from "react";
+import { useState } from "react";
 import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.css";
 import validator from "validator";
@@ -70,8 +70,8 @@ export default function Contact() {
         })
         .catch((err) => console.log(err.message));
       toaster.push(message, { placement });
-      setErrMsg("");
       setInputText({ username: "", email: "", message: "" });
+      setErrMsg("");
     }
   }
 

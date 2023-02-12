@@ -334,6 +334,36 @@ form {
   }
 }
 
+/* valid email styles */
+#eidnote {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 49%;
+  font: 13px "Montserrat";
+  color: #0e0e0e;
+  font-weight: 900;
+  white-space: nowrap;
+  text-transform: capitalize;
+  letter-spacing: 0.1px;
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+  #eidnote {
+    top: 51%;
+  }
+}
+@media all and (min-width: 1320px) and (min-width: 800px) {
+  #eidnote {
+    top: 48%;
+  }
+}
+@media all and (min-width: 1920px) and (min-width: 800px) {
+  #eidnote {
+    top: 42%;
+  }
+}
+
 /* notification styles */
 
 .notify {
