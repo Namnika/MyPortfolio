@@ -1,7 +1,7 @@
 {
   "name": "personalshapeshow",
   "version": "1.0.0",
-  "proxy": "http://localhost:5000",
+  "proxy": "namnika-backend.com",
   "description": "",
   "keywords": [],
   "main": "index.js",
