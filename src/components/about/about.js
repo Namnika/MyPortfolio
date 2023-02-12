@@ -15,11 +15,7 @@ export default function About() {
                 alt=""
               />
               <span id="mycv">
-              <Link
-                  className="cv"
-                  to="/files/mycv.pdf"
-                  target="_blank"
-                >
+                <Link className="cv" to="/files/mycv.pdf" target="_blank">
                   MYCV
                 </Link>
               </span>
