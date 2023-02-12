@@ -17,7 +17,7 @@ export default function About() {
               <span id="mycv">
               <Link
                   className="cv"
-                  to="/files/cv.pdf"
+                  to="/files/mycv.pdf"
                   target="_blank"
                 >
                   MYCV

@@ -3,8 +3,6 @@
 *::before {
   box-sizing: border-box;
 }
-
-
 :root {
   font-size: 18px;
 }
@@ -110,9 +108,24 @@
 /* all projects */
 .project {
   clear: both;
-  background: repeating-radial-gradient(ellipse at center, #fff 10%, transparent), url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
-  background: -webkit-repeating-radial-gradient(ellipse at center, #fff 10%, transparent), url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
-  background: -moz-repeating-radial-gradient(ellipse at center, #fff 10%, transparent), url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
+  background: repeating-radial-gradient(
+      ellipse at center,
+      #fff 10%,
+      transparent
+    ),
+    url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
+  background: -webkit-repeating-radial-gradient(
+      ellipse at center,
+      #fff 10%,
+      transparent
+    ),
+    url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
+  background: -moz-repeating-radial-gradient(
+      ellipse at center,
+      #fff 10%,
+      transparent
+    ),
+    url("https://png.pngtree.com/background/20210715/original/pngtree-business-background-white-lines-picture-image_1326843.jpg");
   padding: calc(100% - 35%) 0 calc(100em - 70em) 0;
   margin: 7% 0 7% 0;
   min-width: 106.5%;
@@ -187,16 +200,34 @@
   position: absolute;
 }
 
-@media all and (min-width: 768px) and (min-width: 1024px) {
+@media screen and (min-width: 768px) and (min-width: 1024px) {
+  .img_bgwrap {
+    left: 25rem;
+    height: 20pc;
+    bottom: 32rem;
+    width: 27pc;
+  }
+}
+
+@media screen and (min-width: 1320px) and (min-width: 800px) {
   .img_bgwrap {
     left: 31rem;
     height: 27pc;
-    bottom: 33rem;
+    bottom: 34rem;
     width: 39pc;
   }
 }
 
-@media all and (min-width: 1920px) {
+@media screen and (min-width: 1400px) and (min-width: 800px) {
+  .img_bgwrap {
+    left: 31rem;
+    height: 27pc;
+    bottom: 34rem;
+    width: 39pc;
+  }
+}
+
+@media screen and (min-width: 1920px) {
   .img_bgwrap {
     height: 30pc;
     width: 45pc;
@@ -210,17 +241,34 @@
   left: 4.5%;
   width: 277px;
   height: 217px;
+  border-radius: 0.5ex 0.5ex 0 0;
   backdrop-filter: brightness(7.5);
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
 
-@media all and (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 768px) and (min-width: 1024px) {
+  #image {
+    height: 38vh;
+    width: 38vw;
+    left: 5%;
+    top: 4%;
+  }
+}
+
+@media screen and (min-width: 1320px) and (min-width: 800px) {
   #image {
     height: 400px;
     width: 550px;
-    position: absolute;
     left: 6.5%;
-    border-radius: 0.5ex 0.5ex 0 0;
+    top: 4%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (min-width: 800px) {
+  #image {
+    height: 400px;
+    width: 550px;
+    left: 6.5%;
     top: 4%;
   }
 }
@@ -228,7 +276,6 @@
 @media all and (min-width: 1920px) {
   #image {
     height: 40vh;
-    position: absolute;
     width: 33vw;
   }
 }
@@ -302,11 +349,18 @@ div.svgline2 {
 @media all and (min-width: 768px) and (min-width: 1024px) {
   div.svgline2 {
     width: 0rem;
-    position: absolute;
+    height: 32px;
+    top: 13rem;
+    left: 101%;
+    transform: rotate(90deg);
+  }
+}
+
+@media screen and (min-width: 1320px) and (min-width: 1400px) {
+  div.svgline2 {
     height: 32px;
     top: 14rem;
     left: 103%;
-    transform: rotate(90deg);
   }
 }
 
@@ -326,6 +380,13 @@ div.svgline2 {
 @media all and (min-width: 768px) and (min-width: 1024px) {
   #line2 {
     width: 80px;
+    height: 45px;
+    stroke-width: 213px;
+  }
+}
+
+@media screen and (min-width: 1320px) and (min-width: 1400px) {
+  #line2 {
     height: 80px;
     stroke-width: 143px;
   }

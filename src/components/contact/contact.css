@@ -1,5 +1,4 @@
 @import "rsuite/dist/rsuite.css";
-
 *,
 *::after,
 *::before {
@@ -336,6 +335,7 @@ form {
 }
 
 /* notification styles */
+
 .notify {
   position: relative;
   left: 7%;
@@ -387,13 +387,13 @@ hr {
 
 /* send button link styles */
 .send_button a {
+  cursor: pointer;
   font-size: calc(100px - 83px);
   padding: calc(100px - 65px);
   width: calc(100px - -150px);
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 1);
   margin: 10px 0;
-  cursor: pointer;
   font-weight: 500;
   display: flex;
 }
@@ -408,20 +408,6 @@ hr {
   text-decoration: none;
 }
 
-/* valid email styles */
-#eidnote {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 49%;
-  font: 13px 微軟正黑體;
-  color: var(--bs-black);
-  font-weight: 900;
-  white-space: nowrap;
-  text-transform: capitalize;
-  letter-spacing: 0.1px;
-}
-
 /* footer styles*/
 footer {
   background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-vector-abstract-perspective-flyer-or-banner-with-white-backgroun-picture-image_984885.jpg");
@@ -429,10 +415,6 @@ footer {
 }
 
 @media all and (min-width: 768px) and (min-width: 1024px) {
-  #eidnote {
-    top: 48%;
-  }
-
   footer {
     background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-vector-abstract-perspective-flyer-or-banner-with-white-backgroun-picture-image_984885.jpg");
     justify-content: center;
@@ -521,12 +503,29 @@ footer {
   #social_links {
     margin: 3% 0;
     position: relative;
-    right: 2%;
+    right: -13%;
     top: 14%;
     color: #393e46;
-    padding: 0 22% 0 13%;
+    padding: 0px 13% 0 1px;
     letter-spacing: 5px;
     display: inline-flex;
+  }
+}
+
+@media screen and (min-width: 1320px) and (min-width: 800px) {
+  .small_footnote .footer_links,
+  #social_links {
+    right: 0%;
+    padding: 0 22% 0 13%;
+  }
+}
+
+
+@media screen and (min-width: 1400px) and (min-width: 800px) {
+  .small_footnote .footer_links,
+  #social_links {
+    right: -1%;
+    padding: 0 22% 0 13%;
   }
 }
 
