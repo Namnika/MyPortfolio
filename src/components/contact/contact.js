@@ -65,7 +65,7 @@ export default function Contact() {
         "Content-Type": "application/json",
       };
       axios
-        .post("/", data, headers)
+        .post("backend-portfolio-rosy.vercel.app/", data, headers)
         .then((res) => {
           console.log(res.data);
         })
