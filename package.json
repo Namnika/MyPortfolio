@@ -1,7 +1,7 @@
 {
   "name": "personalshapeshow",
   "version": "1.0.0",
-  "proxy": "namnika-backend.com",
+  "proxy": "https://backend-portfolio-rosy.vercel.app",
   "description": "",
   "keywords": [],
   "main": "index.js",

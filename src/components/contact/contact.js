@@ -43,7 +43,8 @@ export default function Contact() {
     const message = (
       <Notification className="notify">
         <span className="my-feedback">
-          Thank you for connecting with me, I'll surely look it out (^^)
+        Thank you for connecting with me, <br />
+        I'll surely look it out :)
           <br />
           Have a nice day!
         </span>

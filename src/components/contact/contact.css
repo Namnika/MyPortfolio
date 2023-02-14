@@ -365,10 +365,9 @@ form {
 }
 
 /* notification styles */
-
 .notify {
   position: relative;
-  left: 7%;
+  left: 0%;
   border-radius: 0.75rem;
   border: 1px solid rgb(81 80 81 / 1);
   margin: 20%;
