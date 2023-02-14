@@ -65,7 +65,7 @@ export default function Contact() {
         "Content-Type": "application/json",
       };
       axios
-        .post("/#contact", data, headers)
+        .post("/", data, headers)
         .then((res) => {
           console.log(res.data);
         })
