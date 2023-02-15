@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const corsOptions = require('./config/corsOptions');
 const path = require("path");
 const PORT = process.env.PORT || 5000;
 const mongoose = require("mongoose");
@@ -20,7 +21,7 @@ connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
 });
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 

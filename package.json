@@ -1,7 +1,6 @@
 {
   "name": "personalshapeshow",
   "version": "1.0.0",
-  "proxy": "https://backend-portfolio-rosy.vercel.app",
   "description": "",
   "keywords": [],
   "main": "index.js",

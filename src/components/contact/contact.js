@@ -2,7 +2,7 @@ import "./contact.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { format } from "date-fns";
-import axios from "axios";
+import axios from "../../api/axios";
 import qs from "qs";
 import { useState } from "react";
 import Col from "react-bootstrap/Col";
@@ -65,7 +65,7 @@ export default function Contact() {
         "Content-Type": "application/json",
       };
       axios
-        .post("https://backend-portfolio-rosy.vercel.app/#contact", data, headers)
+        .post("/", data, headers)
         .then((res) => {
           console.log(res.data);
         })
