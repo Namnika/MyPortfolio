@@ -48,8 +48,8 @@ export default function About() {
             </p>
             <span id="skills">SKILLS</span>
             <p id="description">
-              HTML / CSS / JavaScript(ES6+) / React / Node.js / Express.js /
-              Mongo DB / Mongoose / Web design{" "}
+              HTML5 / CSS3 / JavaScript(ES6+) / React.js / Node.js / Express.js /
+              Mongodb / Mongoose / Web design{" "}
             </p>
             <span id="certificates">CERTIFICATES</span>
             <p id="certificate_link">
