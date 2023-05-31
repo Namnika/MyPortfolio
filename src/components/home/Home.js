@@ -93,7 +93,7 @@ export default function Home() {
                 <div className="section-middle-right">
                   <h5>NAMNIKA JANBANDHU</h5>
                   <p id="desc">
-                    I am a <strong>MERN Stack Web Developer</strong>. Currently
+                    I am a <strong>Front End Web Developer</strong>. Currently
                     based in India.
                   </p>
                   <p id="desc">

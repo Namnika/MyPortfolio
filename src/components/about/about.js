@@ -37,19 +37,19 @@ export default function About() {
               Fast forward to 2023, I developed small and big applications,
               starting from learning and connecting front-end and back-end
               technologies with Node.js and Express.js to UI/UX design,
-              HTML/CSS/React, and working with databases. Whatever I've done, is
+              HTML/CSS/React.js, and working with databases. Whatever I've done, is
               a vital stepping-stone for what I am today.
             </p>
             <p id="description">
-              The thing that excites me the most as MERN Stack Web Developer is
+              The thing that excites me the most as Front End Web Developer is
               being able to understand, learn new technologies, and create ideas
               based on user requirements, add CRUD operations, and provide
               authentication services.{" "}
             </p>
             <span id="skills">SKILLS</span>
             <p id="description">
-              HTML5 / CSS3 / JavaScript(ES6+) / React.js / Node.js / Express.js /
-              MongoDB / Mongoose / Web design{" "}
+            React.js / HTML5 / CSS3 / JavaScript(ES6+) / UI / Express.js /
+              Bootstrap / Web Development / Web design{" "}
             </p>
             <span id="certificates">CERTIFICATES</span>
             <p id="certificate_link">
