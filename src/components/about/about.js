@@ -48,14 +48,13 @@ export default function About() {
             </p>
             <span id="skills">SKILLS</span>
             <p id="description">
-              React.js / HTML5 / CSS3 / JavaScript(ES6+) / UI / Express.js /
-              Bootstrap / Front End Web Development / Web design{" "}
+              React / HTML5 / CSS3 / JavaScript(ES6+) / UI/UX / Git / Express / Bootstrap / Front End Web Development / Web design{" "}
             </p>
             <span id="certificates">CERTIFICATES</span>
             <p id="certificate_link">
               <a href="https://bit.ly/udemycertificate26">
                 The Complete 2022 Web Development Bootcamp
-              </a>
+              </a><br />
               <a href="https://learn.gitkraken.com/certificates/qsilhr8rxq">Foundations of Git</a>
             </p>
           </div>
