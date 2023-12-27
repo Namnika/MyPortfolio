@@ -34,7 +34,7 @@ export default function Home() {
       {loading ? <Loader /> : null}
       {!loading && (
         <>
-          <div className="bg-home anime noselect">
+          <div className="bg-home anime">
             <motion.div className="progress-bar" style={{ scaleX }} />
             <DotRing />
             <div className="home bg-green">

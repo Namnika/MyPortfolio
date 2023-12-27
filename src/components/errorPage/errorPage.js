@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function ErrorPage() {
   return (
     <>
-      <div className="error-page noselect">
+      <div className="error-page">
         <a href="#">
           <div id="logo">
             N<div className="logo-design" />

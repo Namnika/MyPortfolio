@@ -43,8 +43,8 @@ export default function Contact() {
     const message = (
       <Notification className="notify">
         <span className="my-feedback">
-        Thank you for connecting with me, <br />
-        I'll surely look it out :)
+          Thank you for connecting with me, <br />
+          I'll surely look it out :)
           <br />
           Have a nice day!
         </span>
@@ -77,7 +77,7 @@ export default function Contact() {
   }
 
   return (
-    <Container fluid="xs" className="contact_container noselect">
+    <Container fluid="xs" className="contact_container">
       <Row>
         <Col xs={12} md={6} lg={7}>
           <div className="column1">

@@ -12,7 +12,7 @@ export default function Project() {
   return (
     <>
       <Container fluid="md">
-        <div className="project_page noselect">
+        <div className="project_page">
           {projects.map(
             ({ id, title, desc, end_date, img, github_link, site_link }) => (
               <Row key={id}>

@@ -9,15 +9,6 @@
   font-size: 18px;
 }
 
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 /* main container styles */
 .contact_container {
   min-width: 100%;
