@@ -19,8 +19,8 @@ export const Projects = [
   },
   {
     id: "3",
-    title: "Todo",
-    desc: "Remembering all the tasks is not easy so, I created a small application Todo app to note down every point, and can be deleted very easily only just by clicking over the text. The stacks used to develop are React, Node, Express, and MongoDB.",
+    title: "To-Do List",
+    desc: "Remembering all the tasks is not easy so, I created a small application To-Do List app to note down every point, and can be deleted very easily only just by clicking over the text. The stacks used to develop are React, Node, Express, and MongoDB.",
     end_date: "SEP-22",
     img: "https://i.ibb.co/PMdp3ZK/Screenshot-171.png",
     github_link: "https://github.com/Namnika/Todo-App",
