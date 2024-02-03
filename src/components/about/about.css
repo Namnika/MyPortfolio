@@ -17,8 +17,8 @@
   top: auto;
   right: 0%;
   bottom: 0%;
-  height: 195vh;
-  max-height: 195vh;
+  height: 213vh;
+  max-height: 210vh;
   max-width: 100%;
   width: 100%;
   margin: 0;
@@ -206,7 +206,7 @@
   position: absolute;
   top: 13%;
   left: 5%;
-  width: 380px;
+  width: 330px;
   height: 700px;
 }
 
@@ -222,7 +222,7 @@
 
 blockquote {
   display: block;
-  width: 360px;
+  width: 330px;
   line-height: 1.5em;
   font-weight: 700;
   padding: 15px 50px;
@@ -277,7 +277,7 @@ p {
   margin: 2.5rem 28px 2.5rem;
   font: 13px "Montserrat", sans-serif;
   letter-spacing: calc(100px - 97px);
-  line-height: 2.5em;
+  line-height: 3.5em;
   position: absolute;
   text-transform: uppercase;
   font-weight: 100;
