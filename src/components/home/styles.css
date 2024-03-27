@@ -380,6 +380,10 @@
   letter-spacing: 0;
 }
 
+.section-middle-right {
+  margin: -10rem 0;
+}
+
 .section-middle-right > #desc {
   color: rgba(255, 255, 255, 1);
   margin: 0 0 10px 0;
