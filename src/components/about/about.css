@@ -17,8 +17,8 @@
   top: auto;
   right: 0%;
   bottom: 0%;
-  height: 213vh;
-  max-height: 210vh;
+  height: 238vh;
+  max-height: 237vh;
   max-width: 100%;
   width: 100%;
   margin: 0;
@@ -247,7 +247,7 @@ p {
   letter-spacing: 0.31px;
   font-size: 16px;
   font-weight: 300;
-  margin: 2.5rem 28px 2.5rem;
+  margin: 1.5rem 28px 2.5rem;
 }
 
 #mycv {
