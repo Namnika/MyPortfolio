@@ -93,8 +93,12 @@ export default function Home() {
                 <div className="section-middle-right">
                   <h5>NAMNIKA JANBANDHU</h5>
                   <p id="desc">
-                    I am a <strong>fresh graduate and open to work for Front End Developer roles</strong>,
-                    living in India.
+                    I am a{" "}
+                    <strong>
+                      MCA Student, a fresh graduate, and open to work for Front
+                      End Developer roles
+                    </strong>
+                    , living in India.
                   </p>
                   <p id="desc">
                     I do things and build things for the web. I love what I do,

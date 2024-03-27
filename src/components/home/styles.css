@@ -382,7 +382,7 @@
 
 .section-middle-right > #desc {
   color: rgba(255, 255, 255, 1);
-  margin: 5px 0 10px 0;
+  margin: 0 0 10px 0;
   padding: calc(100px - 90px) 0 calc(100px - 89px) 0;
   text-align: start;
   line-height: 28px;
@@ -392,7 +392,6 @@
 }
 
 .section-middle-right > h5 {
-  padding: 0 0 0 calc(100rem - 99rem);
   font: 18px "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
