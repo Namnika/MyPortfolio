@@ -380,10 +380,6 @@
   letter-spacing: 0;
 }
 
-.section-middle-right {
-  margin: -10rem 0;
-}
-
 .section-middle-right > #desc {
   color: rgba(255, 255, 255, 1);
   margin: 0 0 10px 0;
@@ -420,7 +416,7 @@
     justify-content: center;
     column-count: 2;
     column-gap: 20px;
-    margin: 0px 3rem 0;
+    margin: 0px auto;
     width: 77%;
     line-height: 1.7px;
     letter-spacing: 0.7px;
@@ -441,12 +437,16 @@
 
   .section-middle-left {
     position: relative;
-    width: 40vw;
-    left: -1%;
+    left: -10%;
     top: 5%;
     font: 3.5vw 微軟正黑體;
     text-align: end;
     height: 75%;
+    width: 45vw;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
   }
 
   .section-middle-right > #desc {
