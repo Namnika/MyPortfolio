@@ -95,8 +95,7 @@ export default function Home() {
                   <p id="desc">
                     I am a{" "}
                     <strong>
-                      MCA Student, a fresh graduate, and open to work for Front
-                      End Developer roles
+                      MCA Student, a fresh graduate, and open to working in Software Developer roles
                     </strong>
                     , living in India.
                   </p>
