@@ -191,10 +191,10 @@ export default function Contact() {
               <ul className="footer_links">
                 <li id="social_links">
                   <a
-                    href="https://twitter.com/bt_13jjks?t=1tECexjFVkTvGotKG-u3AA&s=09"
+                    href="https://x.com/bt_13jjks"
                     id="twitter_link"
                   >
-                    twitter
+                    x
                   </a>
                 </li>
                 <li id="social_links">
@@ -204,7 +204,7 @@ export default function Contact() {
                 </li>
                 <li id="social_links">
                   <a
-                    href="https://www.linkedin.com/in/namnika-janbandhu-5b741522a"
+                    href="https://www.linkedin.com/in/namnika-janbandhu"
                     id="linkedIn_link"
                   >
                     linkedIn
