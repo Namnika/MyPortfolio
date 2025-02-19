@@ -1,12 +1,12 @@
 export const Projects = [
   {
     id: "1",
-    title: "News Homepage",
-    desc: "This one-page news website provides access to read news from 25+ countries in various languages, and categories sorted by popularity. Additionally, you can listen to the news using a small black audio button at your convenience. The website was built using React and Vite for better performance and tested using Jest. It is also designed to be mobile-friendly.",
-    end_date: "DEC-23",
-    img: "https://i.ibb.co/0Fbfm29/Screenshot-427.png",
-    github_link: "https://github.com/Namnika/News-Homepage",
-    site_link: "https://onepagenews.vercel.app"
+    title: "Tours and Travels",
+    desc: "The Tours & Travels Website is a React-based Single Page Application (SPA) developed as an academic project from September 2024 to November 2024. It provides a seamless user experience for exploring affordable travel packages, hotels, transportation, and exclusive deals. The project enhances frontend development skills, improves UI/UX design, and demonstrates real-world application of React in web development.",
+    end_date: "NOV-24",
+    img: "https://i.ibb.co/hRMfVR7y/Screenshot-39.png",
+    github_link: "https://github.com/Namnika/ToursTravelsWebApplication",
+    site_link: "https://tours-travels5.netlify.app/"
   },
   {
     id: "2",
@@ -19,7 +19,7 @@ export const Projects = [
   },
   {
     id: "3",
-    title: "To-Do List",
+    title: "To-Do App",
     desc: "Remembering all the tasks is not easy so, I created a small application To-Do List app to note down every point, and can be deleted very easily only just by clicking over the text. The stacks used to develop are React, Node, Express, and MongoDB.",
     end_date: "SEP-22",
     img: "https://i.ibb.co/PMdp3ZK/Screenshot-171.png",
